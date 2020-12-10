@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.navbarTop {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+}
+
+header {
+  height: 560px;
+  width: 100%;
+}
+
+#app .hero {
+  height: 460px;
+  width: 100%;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
