@@ -4,6 +4,8 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  list-style: none;
+  text-decoration: none;
 }
 
 .container {
@@ -13,15 +15,46 @@
 
 .navbarTop {
   display: flex;
+  flex-direction: column;
   justify-content: end;
   align-items: center;
-  height: 50px;
+  height: 100px;
   width: 100%;
+  background-color: #000;
 }
 
 header {
   height: 560px;
   width: 100%;
+}
+
+#app .navbarTop .navContacts {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#app .navbarTop .navContacts ul {
+  display: flex;
+  list-style: none;
+}
+
+#app .navbarTop .navContacts ul li a {
+  color: #fff;
+  opacity: 0.5;
+}
+
+#app .navbarTop .navProducts {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#app .navbarTop .navProducts ul {
+  display: flex;
+  list-style: none;
+}
+
+#app .navbarTop .navProducts ul li a {
+  color: #fff;
 }
 
 #app .hero {

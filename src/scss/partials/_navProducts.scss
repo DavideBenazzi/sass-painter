@@ -1,0 +1,13 @@
+#app .navbarTop .navProducts {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#app .navbarTop .navProducts ul {
+    display: flex;
+    list-style: none;
+}
+
+#app .navbarTop .navProducts ul li a {
+    color: $white;
+}

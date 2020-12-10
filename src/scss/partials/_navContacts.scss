@@ -1,0 +1,14 @@
+#app .navbarTop .navContacts {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#app .navbarTop .navContacts ul {
+    display: flex;
+    list-style: none;
+}
+
+#app .navbarTop .navContacts ul li a {
+    color: $white;
+    opacity: 0.5;
+}

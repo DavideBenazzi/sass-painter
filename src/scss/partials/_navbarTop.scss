@@ -1,7 +1,9 @@
 .navbarTop {
     display: flex;
+    flex-direction: column;
     justify-content: end;
     align-items: center;
-    height: 50px;
+    height: $navbarTopHeight;
     width: 100%;
+    background-color: $black;
 }
