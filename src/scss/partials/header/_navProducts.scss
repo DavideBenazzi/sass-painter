@@ -6,8 +6,13 @@
 #app .navbarTop .navProducts ul {
     display: flex;
     list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
 }
 
 #app .navbarTop .navProducts ul li a {
     color: $white;
+    padding: 1rem;
+    margin-top: 1rem;
 }

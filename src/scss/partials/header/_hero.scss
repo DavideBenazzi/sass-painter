@@ -1,0 +1,43 @@
+.hero {
+    height: 460px;
+    width: 100%;
+    background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.hero .essentials {
+    width: 60%;
+    padding-left: 10rem;
+    padding-top: 1rem;
+    color: $white;
+}
+
+.hero .essentials h1 {
+    font-size: 2.2rem;
+    padding: 0.5rem;
+}
+
+.hero .essentials h2 {
+    font-size: 1.8rem;
+    padding: 0.5rem;
+}
+
+.hero .essentials ul li  {
+    padding: 0.5rem;
+}
+
+.hero .essentials .trial {
+    cursor: pointer;
+    background-color: lightgrey;
+    width: 120px;
+    height: 60px;
+
+}
+
+.hero .download {
+    height: 300px;
+    width: 40%;
+    background-color: $black;
+    margin-top: 160px;
+}

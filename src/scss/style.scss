@@ -1,6 +1,9 @@
 // VARIABLES
 @import "partials/variables";
 
+// UTILITIES
+@import "partials/utilities";
+
 // COMMON
 @import "partials/common";
 
@@ -8,15 +11,18 @@
 @import "partials/container";
 
 // HEADER
-@import "partials/navbarTop";
-@import "partials/header";
+@import "partials/header/navbarTop";
+@import "partials/header/header";
 
 // NAVBARTOP NAVCONTACTS
-@import "partials/navContacts";
+@import "partials/header/navContacts";
 
 // NAVBARTOP NAVPRODUCTS
-@import "partials/navProducts";
+@import "partials/header/navProducts";
 
 // HERO
-@import "partials/hero";
+@import "partials/header/hero";
+
+// NAVBARBOTTOM
+@import "partials/header/navbarBottom"
 

@@ -6,9 +6,12 @@
 #app .navbarTop .navContacts ul {
     display: flex;
     list-style: none;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #app .navbarTop .navContacts ul li a {
     color: $white;
     opacity: 0.5;
+    padding: 1rem;
 }

@@ -1,0 +1,18 @@
+header .navbarBottom {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6E6E6;
+}
+
+header .navbarBottom ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header .navbarBottom ul li a {
+    padding: 1rem;
+}
