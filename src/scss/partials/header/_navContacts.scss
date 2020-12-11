@@ -1,17 +1,26 @@
 #app .navbarTop .navContacts {
     display: flex;
     justify-content: flex-end;
-}
-
-#app .navbarTop .navContacts ul {
-    display: flex;
+    ul {
+        display: flex;
     list-style: none;
     justify-content: space-between;
     align-items: center;
-}
-
-#app .navbarTop .navContacts ul li a {
-    color: $white;
-    opacity: 0.5;
-    padding: 1rem;
+        li a {
+            color: $fontColor;
+        opacity: 0.5;
+        padding: 1rem;
+        font-size: 0.8rem;
+        i {
+            color: #009cff;
+            font-size: 0.8rem;
+            padding-right: 0.5rem;
+        }
+        &:hover {
+            opacity: 1;
+            text-decoration: underline;
+            transition: 0.4s;
+        }
+        }
+    }
 }

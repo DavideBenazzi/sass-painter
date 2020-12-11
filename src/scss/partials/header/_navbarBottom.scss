@@ -5,14 +5,22 @@ header .navbarBottom {
     justify-content: center;
     align-items: center;
     background-color: #E6E6E6;
-}
-
-header .navbarBottom ul {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-header .navbarBottom ul li a {
-    padding: 1rem;
+    ul {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        li {
+            padding: 1rem;
+            cursor: pointer;
+            a {
+            color: $bkgColor;
+            }
+            &:hover {
+                background-color: $fontColor;
+                a {
+                    font-weight: 700;
+                }
+            }
+        }
+    }
 }

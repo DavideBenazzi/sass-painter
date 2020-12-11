@@ -41,25 +41,33 @@ header {
   display: flex;
   justify-content: flex-end;
 }
-
 #app .navbarTop .navContacts ul {
   display: flex;
   list-style: none;
   justify-content: space-between;
   align-items: center;
 }
-
 #app .navbarTop .navContacts ul li a {
   color: #fff;
   opacity: 0.5;
   padding: 1rem;
+  font-size: 0.8rem;
+}
+#app .navbarTop .navContacts ul li a i {
+  color: #009cff;
+  font-size: 0.8rem;
+  padding-right: 0.5rem;
+}
+#app .navbarTop .navContacts ul li a:hover {
+  opacity: 1;
+  text-decoration: underline;
+  transition: 0.4s;
 }
 
 #app .navbarTop .navProducts {
   display: flex;
   justify-content: flex-start;
 }
-
 #app .navbarTop .navProducts ul {
   display: flex;
   list-style: none;
@@ -67,11 +75,24 @@ header {
   align-items: center;
   margin-top: 1rem;
 }
-
+#app .navbarTop .navProducts ul li {
+  padding: 1rem;
+}
 #app .navbarTop .navProducts ul li a {
   color: #fff;
-  padding: 1rem;
   margin-top: 1rem;
+}
+#app .navbarTop .navProducts ul li:hover {
+  background-color: #fff;
+}
+#app .navbarTop .navProducts ul li:hover a {
+  color: #000;
+}
+#app .navbarTop .navProducts ul li:first-child:hover {
+  background-color: #000;
+}
+#app .navbarTop .navProducts ul li:first-child:hover a {
+  color: #fff;
 }
 
 .hero {
@@ -79,42 +100,103 @@ header {
   width: 100%;
   background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: -200px;
 }
-
 .hero .essentials {
   width: 60%;
-  padding-left: 10rem;
+  padding-left: 15rem;
   padding-top: 1rem;
   color: #fff;
 }
-
 .hero .essentials h1 {
   font-size: 2.2rem;
   padding: 0.5rem;
 }
-
 .hero .essentials h2 {
   font-size: 1.8rem;
   padding: 0.5rem;
 }
-
 .hero .essentials ul li {
   padding: 0.5rem;
 }
-
+.hero .essentials ul li i {
+  margin-right: 0.5rem;
+  font-size: 0.8rem;
+}
 .hero .essentials .trial {
   cursor: pointer;
-  background-color: lightgrey;
-  width: 120px;
-  height: 60px;
+  color: #fff;
+  background-color: #666;
+  width: 200px;
+  height: 50px;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem;
 }
-
+.hero .essentials .trial .trialName {
+  align-self: center;
+  border-right: 2px solid #fff;
+  padding-right: 1rem;
+}
+.hero .essentials .trial .trialName span {
+  font-size: 0.8rem;
+}
+.hero .essentials .trial i {
+  align-self: center;
+  padding-right: 0.5rem;
+}
+.hero .essentials .trial:hover {
+  opacity: 0.8;
+}
 .hero .download {
-  height: 300px;
+  height: 450px;
   width: 40%;
   background-color: #000;
-  margin-top: 160px;
+  margin-top: 10px;
+}
+.hero .download .dlPrice {
+  display: flex;
+  justify-content: space-between;
+}
+.hero .download .dlPrice .price {
+  color: #fff;
+  padding: 1rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+.hero .download .dlPrice .price h3 {
+  color: #666;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.hero .download .dlPrice a {
+  padding: 1rem;
+}
+.hero .download .dlBtn {
+  background-color: #009cff;
+  color: #fff;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  outline: none;
+}
+.hero .download .dlBtn:hover {
+  opacity: 0.8;
+}
+.hero .download .dlOffer {
+  width: 90%;
+  background-color: #fff;
+  color: #000;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.hero .download .dlOffer p {
+  font-size: 0.8rem;
+  margin: 0.5rem 0;
+}
+.hero .download .dlOffer a {
+  color: #009cff;
 }
 
 header .navbarBottom {
@@ -125,13 +207,21 @@ header .navbarBottom {
   align-items: center;
   background-color: #E6E6E6;
 }
-
 header .navbarBottom ul {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-
-header .navbarBottom ul li a {
+header .navbarBottom ul li {
   padding: 1rem;
+  cursor: pointer;
+}
+header .navbarBottom ul li a {
+  color: #000;
+}
+header .navbarBottom ul li:hover {
+  background-color: #fff;
+}
+header .navbarBottom ul li:hover a {
+  font-weight: 700;
 }
