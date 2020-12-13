@@ -24,6 +24,7 @@
 body #app .container {
   width: 1170px;
   margin: 0 auto;
+  height: 100%;
 }
 
 .navbarTop {
@@ -287,4 +288,34 @@ header .navbarBottom ul li:hover a {
   font-size: 3rem;
   border-radius: 50%;
   z-index: 3;
+}
+
+.distinctive {
+  height: 700px;
+  background-color: #fff;
+}
+.distinctive h2 {
+  font-size: 2rem;
+  padding-top: 2rem;
+}
+.distinctive p {
+  line-height: 30px;
+  flex-grow: 1;
+  margin: 1rem;
+}
+.distinctive .slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.distinctive .slider i {
+  color: #fff;
+  background-color: orange;
+  border-radius: 50%;
+  font-size: 2rem;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+}
+.distinctive .slider img {
+  width: 800px;
 }

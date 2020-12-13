@@ -1,0 +1,29 @@
+.distinctive {
+    height: 700px;
+    background-color: $fontColor;
+    h2 {
+        font-size: 2rem;
+        padding-top: 2rem;
+    }
+    p {
+        line-height: 30px;
+        flex-grow: 1;
+        margin: 1rem;
+    }
+    .slider {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        i {
+            color: $fontColor;
+            background-color: orange;
+            border-radius: 50%;
+            font-size: 2rem;
+            padding: 1rem 1.5rem;
+            cursor: pointer;
+        }
+        img {
+            width: 800px;
+        }
+    }
+}
