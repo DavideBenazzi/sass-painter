@@ -7,6 +7,10 @@
   flex-direction: column;
 }
 
+.textCenter {
+  text-align: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -224,4 +228,63 @@ header .navbarBottom ul li:hover {
 }
 header .navbarBottom ul li:hover a {
   font-weight: 700;
+}
+
+.ideal {
+  width: 100%;
+  height: 700px;
+  background-image: linear-gradient(#3e0594, #0e043f);
+  margin-top: 50px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.ideal h2 {
+  font-size: 2rem;
+  margin: 1rem;
+}
+.ideal a {
+  text-decoration: none;
+  color: #fff;
+}
+.ideal a i {
+  border: 2px solid grey;
+  color: grey;
+  padding: 0.3rem;
+  border-radius: 50%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.ideal .screen {
+  background-color: #000;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 900px;
+  height: 510px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.ideal .screen img {
+  width: 800px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.ideal .screen i {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  display: inline-block;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 1rem;
+  font-size: 3rem;
+  border-radius: 50%;
+  z-index: 3;
 }
