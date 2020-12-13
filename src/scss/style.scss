@@ -10,6 +10,12 @@
 // UTILITY
 @import "partials/container";
 
+// FIXEDBKG
+@import "partials/fixedBkg";
+
+// FIXEDBKG2
+@import "partials/fixedBkg2";
+
 // HEADER
 @import "partials/header/navbarTop";
 @import "partials/header/header";
@@ -31,4 +37,15 @@
 
 // SECTION DISTINCTIVE
 @import "partials/section-distinctive/distinctive";
+
+// SECTION FLEXIBLE
+@import "partials/section-flexible/flexible";
+
+// SECTION TOOLS
+@import "partials/section-tools/tools";
+
+// SECTION BRUSHES
+@import "partials/section-brushes/brushes";
+
+
 

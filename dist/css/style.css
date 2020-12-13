@@ -24,7 +24,26 @@
 body #app .container {
   width: 1170px;
   margin: 0 auto;
+}
+
+.fixedBkg {
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
   height: 100%;
+  padding-bottom: 400px;
+}
+
+.fixedBkg2 {
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-01.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 400px;
 }
 
 .navbarTop {
@@ -234,7 +253,7 @@ header .navbarBottom ul li:hover a {
 .ideal {
   width: 100%;
   height: 700px;
-  background-image: linear-gradient(#3e0594, #0e043f);
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
   margin-top: 50px;
   color: #fff;
   display: flex;
@@ -289,6 +308,11 @@ header .navbarBottom ul li:hover a {
   border-radius: 50%;
   z-index: 3;
 }
+.ideal .screen i:hover {
+  cursor: pointer;
+  color: lightgrey;
+  border-color: lightgrey;
+}
 
 .distinctive {
   height: 700px;
@@ -318,4 +342,196 @@ header .navbarBottom ul li:hover a {
 }
 .distinctive .slider img {
   width: 800px;
+}
+
+.flexible {
+  width: 100%;
+  height: 1800px;
+  background-color: #222;
+  color: #fff;
+  padding-top: 2rem;
+}
+.flexible img {
+  max-width: 600px;
+  margin: 2rem;
+}
+.flexible h2,
+.flexible h3 {
+  margin: 2rem;
+  font-size: 2rem;
+}
+.flexible p {
+  line-height: 1.8rem;
+  margin: 2rem;
+}
+.flexible .brushes,
+.flexible .experiment {
+  display: flex;
+  align-items: center;
+}
+
+.tools {
+  width: 100%;
+  height: 450px;
+  text-align: center;
+  padding: 2rem;
+}
+.tools h2 {
+  font-size: 2rem;
+}
+.tools .effects {
+  width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.tools .effects .mirror {
+  width: 280px;
+  height: 280px;
+  overflow: hidden;
+  position: relative;
+}
+.tools .effects .mirror img {
+  width: 100%;
+  height: 100%;
+}
+.tools .effects .mirror img:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+.tools .effects .mirror::after {
+  content: "mirror";
+  position: absolute;
+  color: #fff;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: capitalize;
+}
+.tools .effects .navigator {
+  width: 280px;
+  height: 280px;
+  overflow: hidden;
+  position: relative;
+}
+.tools .effects .navigator img {
+  width: 100%;
+  height: 100%;
+}
+.tools .effects .navigator img:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+.tools .effects .navigator::after {
+  content: "navigator";
+  position: absolute;
+  color: #fff;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: capitalize;
+}
+.tools .effects .kaleidoscope {
+  width: 280px;
+  height: 280px;
+  overflow: hidden;
+  position: relative;
+}
+.tools .effects .kaleidoscope img {
+  width: 100%;
+  height: 100%;
+}
+.tools .effects .kaleidoscope img:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+.tools .effects .kaleidoscope::after {
+  content: "kaleidoscope";
+  position: absolute;
+  color: #fff;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: capitalize;
+}
+.tools .effects .woodcut {
+  width: 280px;
+  height: 280px;
+  overflow: hidden;
+  position: relative;
+}
+.tools .effects .woodcut img {
+  width: 100%;
+  height: 100%;
+}
+.tools .effects .woodcut img:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+.tools .effects .woodcut::after {
+  content: "woodcut";
+  position: absolute;
+  color: #fff;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: capitalize;
+}
+.tools .effects .apply_lightning {
+  width: 280px;
+  height: 280px;
+  overflow: hidden;
+  position: relative;
+}
+.tools .effects .apply_lightning img {
+  width: 100%;
+  height: 100%;
+}
+.tools .effects .apply_lightning img:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+.tools .effects .apply_lightning::after {
+  content: "apply_lightning";
+  position: absolute;
+  color: #fff;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: capitalize;
+}
+
+.brushes {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/brushpacks-bg.jpg");
+}
+.brushes .brushesBox {
+  width: 500px;
+  height: 400px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 2rem;
+}
+.brushes .brushesBox h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+.brushes .brushesBox p {
+  line-height: 30px;
+}
+.brushes .brushesBox p a {
+  color: #009cff;
+}
+.brushes .brushesBox p a:hover {
+  text-decoration: underline;
 }

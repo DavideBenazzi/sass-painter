@@ -1,0 +1,25 @@
+.flexible {
+    width: 100%;
+    height: 1800px; 
+    background-color: #222;
+    color: $fontColor;
+    padding-top: 2rem;
+    img {
+        max-width: 600px;
+        margin: 2rem;
+    }
+    h2,
+    h3 {
+        margin: 2rem;
+        font-size: 2rem;
+    }
+    p {
+        line-height: 1.8rem;
+        margin: 2rem;
+    }
+    .brushes,
+    .experiment {
+        display: flex;
+        align-items: center;
+    }
+}

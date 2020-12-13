@@ -1,7 +1,7 @@
 .ideal {
     width: 100%;
     height: 700px;
-    background-image: linear-gradient(#3e0594 , #0e043f);
+    background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg');
     margin-top: 50px;
     color: #fff;
     display: flex;
@@ -53,6 +53,11 @@
             font-size: 3rem;
             border-radius: 50%;
             z-index: 3;
+            &:hover {
+                cursor: pointer;
+                color: lightgrey;
+                border-color: lightgrey;
+            }
         }
     }
 }

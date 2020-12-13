@@ -1,0 +1,33 @@
+.brushes {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/brushpacks-bg.jpg");
+    .brushesBox {
+        width: 500px;
+        height: 400px;
+        background-color: $fontColor;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        margin: 2rem;
+        h3 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            font-weight: 400;
+        }
+        p {
+            line-height: 30px;
+            a {
+                color: #009cff;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
